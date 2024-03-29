@@ -1,0 +1,283 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/* .cosntainer-movie {
+    height: 30px;
+    width: 20px;
+} */
+.header {
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    background-image:url(Images/34c4a362-4904-48ca-9658-93ffde69f59f.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+/* .button-login {
+    margin-left: 92%;
+    font-size: 30px;
+    margin-top: 8px;
+    width: 150px;
+} */
+h2 {
+    margin-top: 50px;
+}
+.mood-button {
+    font-size: 20px;
+    margin: 0px 0px 0px 44%;
+    opacity: 0.8;
+}
+.mood-button:hover {
+    box-shadow: 0px 4px 10px black;
+    opacity:1;
+}
+h1{
+    font-family:Bebas Neue;
+    color: crimson;
+    position: fixed;
+    font-size: 80px;
+    margin-left: 50px;
+}
+/* h2{
+    font-family: sans-serif;
+    color: whitesmoke;
+    align-content: center;
+} */
+h2 {
+    display: flex;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 50px; 
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+   
+}
+.search{
+    /* /* text-align:center; */
+    /* height:50px; */
+    /* width:25%; */
+    font-size: 40px;
+    /* border-radius: 70px; */
+    display: flex;
+    justify-content: center;
+    /* width: 20px; */
+    margin-bottom: 20px;
+}
+.mood{
+    display: flex;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 35px; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    background-color: red;
+    -webkit-text-fill-color:white;
+    width:250px;
+    height:50px;
+    text-align:left;
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    margin-left: 92%;
+    font-size: 30px;
+    margin-top: 8px;
+    width: 150px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3b3838; 
+    padding: 20px;
+    box-shadow: rgba(13,13,13,0.1);
+    /* changes */
+     color: white;
+    text-align: right; 
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1;
+}
+
+.movie-container {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    /* changees */
+    /* flex: 1;
+    
+    flex-wrap: wrap;
+    gap: 20px;
+     */
+
+}
+.webseries-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* changes */
+    flex: 1;
+    
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Anime-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* changes */
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.movie {
+    height: 275px;
+    width: 20px;
+    margin-bottom: 20px;
+    margin-right:20px;
+    border:4px solid black;
+    /* changes */
+    flex: 1;
+    margin-left: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.7;
+    background-size: cover;
+}
+.movie:hover {
+    box-shadow: 0 4px 10px black;
+    opacity: 1;
+}
+.Webseries{
+    height: 275px;
+    width: 20px;
+    margin-bottom: 20px;
+    /* margin-right:20px; */
+    border:4px solid black;
+    /* changes */
+    flex: 1;
+    margin-left: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.7;
+    background-size: cover;
+}
+.Webseries:hover {
+    box-shadow: 0 4px 10px black;
+    opacity: 1;
+}
+.Anime{
+     height: 275px;
+    width: 20px;
+    margin-bottom: 20px;
+    /* margin-right:20px; */
+    border:4px solid black;
+    /* changes */
+    flex: 1;
+    margin-left: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.7;
+    background-size: cover; 
+
+}
+.Anime:hover {
+    box-shadow: 0 4px 10px black;
+    opacity: 1;
+}
+body {
+    background-image: url('Images/Netflix-Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.content {
+    background-color: rgba(23, 23, 23, 0.67);
+    padding: 20px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 52px;
+    color: azure;
+}
+
+.down{
+    font-size:40px;
+    color:rgb(7, 0, 0)
+}
+
+/* changes */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .movies-container, .webseries-container, .Anime-container {
+        gap: 10px;
+    }
+
+    .movie, .webseries, .Anime {
+        padding: 10px;
+    }
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1 {
+    background-color:#37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.85rem;
+}
+.foot-panel2{
+    background-color:#222f3d;
+    color:white;
+    height:300px;
+    display:flex;
+    justify-content:space-evenly;
+}
+ul{
+    margin-top:20px;
+}
+
+ul a{
+    display:block;
+    font-size:0.85rem;
+    margin-top:10px;
+    color:#dddd;
+}
+

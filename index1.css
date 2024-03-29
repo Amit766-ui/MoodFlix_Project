@@ -1,0 +1,182 @@
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* To ensure it appears above other elements */
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav li a:hover {
+    color: crimson;
+}
+
+.content {
+    padding-top: 100px; /* Adjust this value according to the height of the fixed header */
+}
+
+h1 {
+    font-family: Bebas Neue;
+    color: crimson;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 1000; /* To ensure it appears above other elements */
+}
+h2 {
+    display: flex;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 50px; 
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.movie-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.webseries-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Anime-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.movie {
+    margin-bottom: 20px;
+    margin-right:20px;
+    border:solid rgb(160, 5, 5);
+}
+.Webseries{
+    margin-right:20px;
+    border:solid rgb(160, 5, 5);
+
+
+}
+.Anime{
+    margin-right:20px;
+    border:solid rgb(160, 5, 5);
+
+}
+body {
+    background-image: url('Images/Netflix-Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.content {
+    background-color: rgba(23, 23, 23, 0.67);
+    padding: 20px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 52px;
+    color: azure;
+}
+
+
+mood-
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movies-container, .webseries-container, .Anime-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie, .webseries, .Anime {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.movie img, .webseries img, .Anime img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .movies-container, .webseries-container, .Anime-container {
+        gap: 10px;
+    }
+
+    .movie, .webseries, .Anime {
+        padding: 10px;
+    }
+}
